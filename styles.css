@@ -1,0 +1,67 @@
+/* styles.css */
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para a barra de navegação */
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-list li {
+    margin-right: 20px;
+  }
+  
+  .navbar-list li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Estilos para os formulários */
+  .form {
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    padding: 8px;
+  }
+  
+  .form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para a lista de itens */
+  .item-list {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .item-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item-list ul li {
+    margin-bottom: 10px;
+  }
+  
